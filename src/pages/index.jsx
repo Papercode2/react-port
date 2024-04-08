@@ -16,8 +16,8 @@ function Index() {
 
                 <div className="d-flex align-items-center d-lg-none">
                     <i className="navbar-icon bi-telephone-plus me-3"></i>
-                    <a className="custom-btn btn" href="#section_5">
-                        href="tel:+254740770403"
+                    <a className="custom-btn btn" 
+                        href="tel:+254740770403">
                     </a>
                 </div>
 
