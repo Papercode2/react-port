@@ -1,4 +1,4 @@
-refimport React from 'react';
+import React from 'react';
 
 function Index() {
   return (
