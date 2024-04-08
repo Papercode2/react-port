@@ -12,7 +12,7 @@ function Index() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <a href="index" className="navbar-brand mx-auto mx-lg-0">First</a>
+                <a href="index" className="navbar-brand mx-auto mx-lg-0">Brian</a>
 
                 <div className="d-flex align-items-center d-lg-none">
                     <i className="navbar-icon bi-telephone-plus me-3"></i>
