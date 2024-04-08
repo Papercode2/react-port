@@ -441,25 +441,15 @@ function Index() {
     <div class="row">
         <div class="col-lg-6 col-md-6 col-12">
             <div class="form-floating">
-                <input type="text" name="name" id="name" class="form-control" placeholder="Name" required=""/>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Name" required="" autocomplete="on"/>
                 <label for="name">Name</label>
             </div>
         </div>
 
         <div class="col-lg-6 col-md-6 col-12"> 
             <div class="form-floating">
-                <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required=""/>
+                <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required="" autocomplete="on"/>
                 <label for="email">Email address</label>
-            </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 col-6">
-            <div class="form-check form-check-inline">
-                <input name="website" type="checkbox" class="form-check-input" id="inlineCheckbox1" value="1"/>
-                <label class="form-check-label" for="inlineCheckbox1">
-                    <i class="bi-globe form-check-icon"></i>
-                    <span class="form-check-label-text">Websites</span>
-                </label>
             </div>
         </div>
 
@@ -467,7 +457,7 @@ function Index() {
 
         <div class="col-lg-12 col-12">
             <div class="form-floating">
-                <textarea class="form-control" id="message" name="message" placeholder="Tell me about the project"></textarea>
+                <textarea class="form-control" id="message" name="message" placeholder="Tell me about the project" autocomplete="on"></textarea>
                 <label for="message">Tell me about the project</label>
             </div>
         </div>
@@ -477,6 +467,7 @@ function Index() {
         </div>
     </div>
 </form>
+
 
                             </div>
 
