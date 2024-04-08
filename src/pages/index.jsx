@@ -1,4 +1,4 @@
-import React from 'react';
+refimport React from 'react';
 
 function Index() {
   return (
@@ -17,7 +17,7 @@ function Index() {
                 <div className="d-flex align-items-center d-lg-none">
                     <i className="navbar-icon bi-telephone-plus me-3"></i>
                     <a className="custom-btn btn" href="#section_5">
-                        +254740770403
+                        href="tel:+254740770403"
                     </a>
                 </div>
 
